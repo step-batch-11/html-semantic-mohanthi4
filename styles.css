@@ -49,18 +49,76 @@ header > p{
   font-size: 16px;
   font-style: italic;
   color: #666;
-  padding:0.5em 0em;
-  border-bottom: 1px solid #999;
+  padding:0.5em ;
+  border-bottom: 2px solid #888;
+}
+
+article{
+  color:#333;
+  box-shadow: 0px 0px 3px 0px #bbbaba;
+  padding: 1.5em;
 }
 
 section{
+  margin: 20px ;
   padding: 0.9em 0em;
   line-height: 1.5em;
+  border-bottom: 1px solid #999;
+}
+
+section > header{
+  font-size:20px
 }
 
 p {
+  padding: 0.6em;
   font-size: 18px;
   color: #444;
-  line-height: 1.3em;
+  line-height: 1.5em;
 }
 
+mark{
+  background-color: ghostwhite;
+  color:#4fbb10
+}
+
+figure{
+  width:800px;
+  box-shadow: 0px 0px 3px 0px black;
+}
+
+figcaption{
+  margin-top:0.2em;
+  width:800px;
+  display: flex;
+  justify-content: center;
+}
+
+aside{
+  background-color: #e0dfdf;
+  height:200px;
+  padding: 0.8em;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+footer{
+  background-color: #8a8989;
+  display: flex;
+  justify-content: center;
+}
+
+footer > p{
+  color:white;
+}
+
+dialog{
+  position: relative;
+  left:700px;
+  top:20px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
