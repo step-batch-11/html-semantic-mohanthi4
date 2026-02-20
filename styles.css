@@ -8,8 +8,9 @@ body{
   background-color: ghostwhite;
 }
 
-header{
+hgroup{
   text-align: center;
+  padding: 1.3em;
 }
 
 h1{
@@ -17,11 +18,32 @@ h1{
   color: #222;
 }
 
-h2{
-  padding-left: 1.5em;
+h3{
+  padding: 0.3em;
   color: #333;
 }
 
-h3,h4{
+
+nav{
+  background-color: #888;;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+a{
+  color:whitesmoke;
+  padding: 0.8em 1.5em;
+  text-decoration: none;
+}
+
+main{
+  width:900px;
+  margin: auto;
+}
+
+h2,h4{
+  padding-top: 0.8em;
   color:#333
 }
